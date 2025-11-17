@@ -14,6 +14,7 @@ The objective is to build a solid foundation and create complete projects that c
 
 ## Structure of the Repository
 
+```
 ds-project/
 │
 ├── api/               # FastAPI services for model deployment
@@ -30,6 +31,7 @@ ds-project/
 ├── scripts/           # Python scripts (ETL, preprocessing, utilities)
 │
 └── README.md          # Project description
+```
 
 ---
 
@@ -65,7 +67,7 @@ Over time, this repository will include:
 
 ---
 
-## Tecnologias utilizadas
+## Technologies Used
 
 - **Python 3.11**
 - **Jupyter Notebook**
