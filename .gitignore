@@ -1,0 +1,71 @@
+# ---------------------------------------
+#  Python
+# ---------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.joblib
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ---------------------------------------
+#  Data Science project folders
+# ---------------------------------------
+
+# Raw data (não mandar dados brutos para o repo)
+data/raw/*
+# Processed data (ficheiros gerados por scripts)
+data/processed/*
+# Permitir que as pastas existam no Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Modelos treinados (grandes / gerados automaticamente)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.onnx
+
+# ---------------------------------------
+#  Logs e outputs
+# ---------------------------------------
+logs/
+*.log
+*.out
+
+# ---------------------------------------
+#  VSCode / IDE
+# ---------------------------------------
+.vscode/
+.idea/
+
+# ---------------------------------------
+#  Azure / Cloud
+# ---------------------------------------
+*.azure/
+*.env  # ficheiros com credenciais
+*.json  # cuidado com configs sensíveis (podemos remover esta regra se necessário)
+secrets.json
+
+# ---------------------------------------
+#  Docker
+# ---------------------------------------
+docker-data/
+*.pid
+
+# ---------------------------------------
+#  OS-specific
+# ---------------------------------------
+.DS_Store
+Thumbs.db
